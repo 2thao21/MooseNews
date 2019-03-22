@@ -102,6 +102,12 @@ app.post("/articles/:id", function(req, res) {
 
 });
 
+
+// Still missing a lot of stuff, after saving notes/comments, can't call them back yet.
+// Still need to create clear function.
+// Also need to create summaries.
+
+
 // Start the server
 app.listen(PORT, function() {
   console.log("App running on port " + PORT + "!");

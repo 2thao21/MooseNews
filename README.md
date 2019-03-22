@@ -12,7 +12,7 @@
 * Once articles are loaded, a Title and URL link will populate.
 * Clicking on general area of articles will create a note section, where users can add notes/comments.
 
-* ![](https://github.com/2thao21/liri-node-app/blob/master/images/movieThis.PNG)
+* ![](https://github.com/2thao21/MooseNews/blob/master/public/img/Mongo%20Scraper%20New%20York%20Post.JPG)
 
 # Live Demo
 
