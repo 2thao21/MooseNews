@@ -14,4 +14,11 @@
 
 # Live Demo
 
-* 
+* https://protected-castle-61321.herokuapp.com/
+
+* Kept getting this error in CLI when creating mongolab on heroku:
+ Warning: addons: is not a heroku command.
+Did you mean addons? [y/n]: y
+ »   Error: Unexpected arguments: create, mongolab
+
+ 
