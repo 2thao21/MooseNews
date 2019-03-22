@@ -12,6 +12,8 @@
 * Once articles are loaded, a Title and URL link will populate.
 * Clicking on general area of articles will create a note section, where users can add notes/comments.
 
+* ![](https://github.com/2thao21/liri-node-app/blob/master/images/movieThis.PNG)
+
 # Live Demo
 
 * https://protected-castle-61321.herokuapp.com/
@@ -21,4 +23,3 @@
 Did you mean addons? [y/n]: y
  »   Error: Unexpected arguments: create, mongolab
 
- 
