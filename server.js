@@ -27,7 +27,12 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Connect to the Mongo DB
-mongoose.connect("mongodb://localhost/moooseNews", { useNewUrlParser: true });
+// mongoose.connect("mongodb://localhost/moooseNews", { useNewUrlParser: true });
+
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mooseNews";
+
+mongoose.connect(MONGODB_URI);
+
 
 // Routes
 
@@ -103,8 +108,8 @@ app.post("/articles/:id", function(req, res) {
 });
 
 
-// Still missing a lot of stuff, after saving notes/comments, can't call them back yet.
-// Still need to create clear function.
+// Still need to create a saved articles section
+// Need to make it so same articles don't get scraped. 
 // Also need to create summaries.
 
 
